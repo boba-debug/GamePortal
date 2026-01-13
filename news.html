@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Новости — GameHub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="logo">GameHub</div>
+    <ul>
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="games.html">Игры</a></li>
+        <li><a href="videos.html">Видео</a></li>
+        <li><a class="active" href="news.html">Новости</a></li>
+        <li><a href="chat.html">Чат</a></li>
+    </ul>
+</nav>
+
+<header class="hero small">
+    <h1>Новости и обновления</h1>
+</header>
+
+<section class="section">
+    <div class="card">
+        <h2>Запуск GameHub</h2>
+        <p>Мы открыли наш игровой портал! Теперь у нас есть видео, чат, игры и многое другое.</p>
+    </div>
+
+    <div class="card">
+        <h2>Rust сервер обновлён</h2>
+        <p>Добавлены новые плагины, улучшена производительность.</p>
+    </div>
+</section>
+
+<section class="section">
+    <h2>Комментарии</h2>
+
+    <!-- Giscus -->
+    <script src="https://giscus.app/client.js"
+        data-repo="YOUR_GITHUB/REPO"
+        data-repo-id="ID"
+        data-category="General"
+        data-category-id="ID"
+        data-mapping="pathname"
+        data-theme="dark"
+        crossorigin="anonymous"
+        async>
+    </script>
+</section>
+
+<footer>
+    <p>© 2025 GameHub Community</p>
+</footer>
+
+</body>
+</html>
